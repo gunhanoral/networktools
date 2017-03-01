@@ -29,9 +29,9 @@ print(r.text)
 #https://{fortigate_host}/api/v2/cmdb/firewall/policy?vdom=root
 #https://{fortigate_host}/api/v2/cmdb/firewall/policy6?vdom=root
 #https://{fortigate_host}/api/v2/cmdb/system/interface/
-#https://{fortigate_host}/api/v2/cmdb/firewall/vip?vdom=LOCAL-FW
+#https://{fortigate_host}/api/v2/cmdb/firewall/vip?vdom=root
 
-r = s.get(f'https://{fortigate_host}/api/v2/cmdb/firewall/vip?vdom=LOCAL-FW',
+r = s.get(f'https://{fortigate_host}/api/v2/cmdb/firewall/vip?vdom=root',
              cookies=cookiejar, verify=False)
 s.close()
 data = json.loads(r.text)
