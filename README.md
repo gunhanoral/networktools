@@ -8,11 +8,11 @@ This is a basic use of Fortigate API. Right now there are no comprehensive guide
 ### fortibackup.py
 
 To use this under config system global, admin-scp must be enabled.
-And you need paramiko, scp modules. 
+And you need paramiko, scp modules.
 
-Then you may get config backups. An unsophisticated example: 
+Then you may get config backups. An unsophisticated example:
 
-``` python
+```python
 fortigates = {
 	'FW1': '1.1.1.1',
 	'FW2': '2.2.2.2',
