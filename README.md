@@ -1,4 +1,4 @@
-# fortigate-tools
+# networktools
 Simple tools for some basic Fortigate .
 
 ### fortirest.py
