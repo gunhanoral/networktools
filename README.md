@@ -1,5 +1,5 @@
 # networktools
-Simple tools for some basic Fortigate .
+Simple tools for some basic network jobs .
 
 ### fortirest.py
 
